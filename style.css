@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    max-width: 100vw;
+}
+
+.main-container{
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/04/ivory-off-white-paper-texture.jpg');
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-container{
+    background-image: url('https://i.pinimg.com/originals/e4/40/e6/e440e6ffc7b333ece2fb62f0e7d62faa.jpg');
+    min-height: 15vh;
+    margin: 0;
+    /* box-shadow: 0 1rem 2.5rem 0.1rem #000000; */
+    box-shadow: 0.1rem 0.1rem 0.7rem 0.2rem #000000;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100px;
+}
+
+.list-container{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: teal;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+}
+
+.input-task{
+    height: 2rem;
+    width: 40rem;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.task-list{
+    margin: auto;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.task_card{
+    margin: 0.7rem;
+    width: 70vw;
+    padding: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.05rem #000000;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+@media only screen and (mac-width : 823px) {
+    .input-container{
+        font-size : 50px;
+    }
+    .input-task{
+        width : 10rem;
+    }
+}
